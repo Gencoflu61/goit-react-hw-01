@@ -1,0 +1,44 @@
+.friendCard {
+  width: 150px;
+  height: auto;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.friendCard img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 8px;
+}
+
+.friendCard p {
+  margin: 0;
+  text-align: center;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 24px;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.same {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.online {
+  color: #28a745;
+}
+
+.offline {
+  color: #dc3545;
+}
